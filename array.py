@@ -70,3 +70,10 @@
 # print(nested_list)  # Output: [[1, 10, 3], [4, 5, 6], [7, 8, 9]]
 party_bages = [["balloon", "streamer"], ["cake", "candles"], ["gift", "card"]]
 print(party_bages)
+for bag in party_bages:
+    print("Bag contains:")
+    for item in bag:
+        print("- " + item)
+
+
+
