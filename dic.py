@@ -33,6 +33,16 @@
 set_items = {"apple": 1, "banana": 2, "cherry": 3}
 for key, value in set_items.items():
     print(f"{key}: {value}")
+#nested dictionary
+nested_dict = {
+    "person1": {"name": "Alice", "age": 30},
+    "person2": {"name": "Bob", "age": 25}
+}
+print(nested_dict)
+print(nested_dict["person1"]["name"])
+for key, value in nested_dict.items():
+    print(f"{key}: {value}")
+    
     
 
 
