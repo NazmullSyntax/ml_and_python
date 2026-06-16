@@ -26,9 +26,13 @@
 # #remove
 # my_dict.popitem()
 # print(my_dict)
-set_dict = {"apple", "banana", "cherry"}
-print(set_dict)
-for item in set_dict:
-    print(item)
+# set_dict = {"apple", "banana", "cherry"}
+# print(set_dict)
+# for item in set_dict:
+#     print(item)
+set_items = {"apple": 1, "banana": 2, "cherry": 3}
+for key, value in set_items.items():
+    print(f"{key}: {value}")
+    
 
 
